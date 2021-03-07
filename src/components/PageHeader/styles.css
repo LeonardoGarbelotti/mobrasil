@@ -1,0 +1,102 @@
+.page-header {
+    display       : flex;
+    flex-direction: column;
+    background    : var(--color-primary);
+}
+
+.page-header .top-bar-container {
+    width          : 90%;
+    margin         : 0 auto;
+    position: relative;
+    justify-content: space-between;
+    align-items    : center;
+    color          : var(--color-text-in-primary);
+    padding        : 1.6rem 0;
+}
+
+.page-header .top-bar-container a,
+.page-header .top-bar-container button {
+    width : 48px;
+    height: 48px;
+
+    border: 0;
+
+    border-radius: 16px;
+
+    cursor: pointer; 
+
+    transition: background-color 0.2s;
+
+    display        : flex;
+    float: left;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items    : center;
+    
+}
+
+.page-header .top-bar-container .btn-back {
+    background   : #007835;
+}
+
+.page-header .top-bar-container .btn-report {
+    background   : #FFF;
+}
+
+.page-header .top-bar-container .btn-about {
+    background   : #FFA800;
+}
+
+.page-header .top-bar-container .btn-report:hover {
+    background   : #F0F0F7;
+}
+
+.page-header .top-bar-container .btn-back:hover {
+    background: #32bc70;
+}
+
+.page-header .top-bar-container .btn-about:hover {
+    background   : #ffb527;
+}
+
+.page-header .top-bar-container>img {
+    display: flex;
+    float: right;
+    height: 3rem;
+    justify-content: center;
+    align-items    : center;
+}
+
+.page-header .header-content {
+    width   : 90%;
+    position: relative;
+    margin  : 3.2rem auto;
+}
+
+.page-header .header-content strong {
+    font       : 700 3.6rem Archivo;
+    line-height: 4.2rem;
+    color      : var(--color-title-in-primary);
+}
+
+.page-header .header-content p {
+    max-width  : 40rem;
+    font-size  : 1.6rem;
+    line-height: 2.6rem;
+    color      : var(--color-text-in-primary);
+    margin-top : 2.4rem;
+}
+
+@media (min-width: 700px) {
+    .page-header {
+        height: 340px;
+    }
+
+    .page-header .header-content strong {
+        max-width: 350px;
+    }
+
+    .page-header .header-content p {
+        max-width: 400px;
+    }
+}

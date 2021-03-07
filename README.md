@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Página Inicial" src="./home_mobrasil.png" width="450px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+  MoBrasil
+</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#rocket-tecnologias"> ⚙️ Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">🔖 Como Executar</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+## ⚙️ Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este projeto contém as seguintes tecnologias:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [HTML 5](https://html5.org)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [Google Data Studio](https://datastudio.google.com/) 
 
-### `yarn test`
+## 💻 Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O MoBrasil é um projeto que busca aproximar o público das informações divulgadas pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira no que abrange a Mobilidade Estudantil nas instituições de ensino superior brasileiras. O projeto foi desenvolvido como proposta de trabalho para finalização do curso de Ciência da Computação na Universidade Estadual do Norte do Paraná.
 
-### `yarn build`
+## 🔖 Como Executar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Clonando o projeto
+```sh
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://https://github.com/LeonardoGarbelotti/MoBrasil.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+#### Instalação
+No seu terminal, siga as instruções abaixo para instalar as dependência no projeto.
+```sh
 
-### `yarn eject`
+yarn install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+OU
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Iniciando a aplicação
+Na pasta do projeto, execute:
+```sh
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+yarn start
+
+```
+
+OU
+
+```sh
+
+npm start
+
+```
