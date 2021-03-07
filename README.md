@@ -7,12 +7,18 @@
 </h4>
 
 <p align="center">
-  <a href="#rocket-tecnologias"> ⚙️ Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias"> ⚙️ Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">🔖 Como Executar</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
+
+## 💻 Projeto
+
+O MoBrasil é um projeto que busca aproximar o público das informações divulgadas pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira no que abrange a Mobilidade Estudantil nas instituições de ensino superior brasileiras. O projeto foi desenvolvido como proposta de trabalho para finalização do curso de Ciência da Computação na Universidade Estadual do Norte do Paraná.
+
+Pode ser acessado através do endereço: https://master.d1g2m8jj5sgu0a.amplifyapp.com
 
 ## ⚙️ Tecnologias
 
@@ -23,10 +29,6 @@ Este projeto contém as seguintes tecnologias:
 - [HTML 5](https://html5.org)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [Google Data Studio](https://datastudio.google.com/) 
-
-## 💻 Projeto
-
-O MoBrasil é um projeto que busca aproximar o público das informações divulgadas pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira no que abrange a Mobilidade Estudantil nas instituições de ensino superior brasileiras. O projeto foi desenvolvido como proposta de trabalho para finalização do curso de Ciência da Computação na Universidade Estadual do Norte do Paraná.
 
 ## 🔖 Como Executar
 

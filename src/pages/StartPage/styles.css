@@ -17,11 +17,11 @@
 }
 
 div.modal {
-    width        : 80%;
+    width        : 90%;
     margin       : 64px auto;
     background   : var(--color-primary);
     border-radius: 30px;
-    padding      : 64px 80px;
+    padding      : 3rem 3rem;
     text-align   : center;
 }
 
@@ -43,8 +43,8 @@ div.modal-content p {
     margin-top : 2.4rem;
     color      : var(--color-text-in-primary);
     max-width  : 60rem;
-    font-size  : 1.8rem;
-    line-height: 2.6rem;
+    font-size  : 2rem;
+    line-height: 2.7rem;
 
 }
 
@@ -81,5 +81,11 @@ div.google-data-studio embed {
 
     #start-page main {
         max-width: 140rem;
+    }
+
+    div.modal-content p {
+        max-width  : 60rem;
+        font-size  : 2.2rem;
+        line-height: 3rem;
     }
 }

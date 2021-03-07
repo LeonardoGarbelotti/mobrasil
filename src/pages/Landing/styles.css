@@ -1,12 +1,12 @@
 #page-landing {
-    width: 100vw;
+    width : 100vw;
     height: 100vh;
 
-    display: flex;
+    display        : flex;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 
-    color: var(--color-text-in-primary);
+    color     : var(--color-text-in-primary);
     background: var(--color-primary);
 }
 
@@ -15,91 +15,92 @@
 }
 
 .hero-image {
-   width: 100%;
+    width  : 100%;
+    display: none;
 }
 
 .logo-container {
-    text-align: center;
+    text-align   : center;
     margin-bottom: 3.2rem;
 }
 
 .logo-container h2 {
     font-weight: 500;
-    font-size: 2.4rem;
+    font-size  : 2.4rem;
     line-height: 4.6rem;
-    margin-top: 0.8rem;
+    margin-top : 0.8rem;
 }
 
 .about-container {
-    text-align: center;
-    margin-top: 3.2rem;
+    text-align   : center;
+    margin-top   : 3.2rem;
     margin-bottom: 3.2rem;
 }
 
 .about-image {
     width: 100%;
- }
+}
 
- .about-container h2 {
+.about-container h2 {
     font-weight: 500;
-    font-size: 2.4rem;
+    font-size  : 2.4rem;
     line-height: 4.6rem;
-    margin-top: 0.8rem;
+    margin-top : 0.8rem;
 }
 
 .button-container {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    margin: 3.2rem 0;
+    margin         : 3.2rem 0;
 }
 
 .button-container a {
-    width: 30rem;
-    height: 10.4rem;
+    width        : 30rem;
+    height       : 10.4rem;
     border-radius: 0.8rem;
-    font: 700 2.0rem Archivo;
+    font         : 700 2.0rem Archivo;
 
-    display: flex;
-    align-items: center;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
 
     text-decoration: none;
-    color: var(--color-primary-dark);
-    background: var(--color-secundary);
+    color          : var(--color-primary-dark);
+    background     : var(--color-secundary);
 
     transition: background-color 0.5s;
 }
 
 .button-container a:hover {
-    color: var(--color-secundary);
+    color     : var(--color-secundary);
     background: var(--color-primary-dark);
 }
 
 .button-container a svg {
     margin-right: 2rem;
-    width: 4rem;
+    width       : 4rem;
 }
 
 @media (min-width: 1100px) {
     #page-landing-content {
         max-width: 1100px;
 
-        display: grid;
-        grid-template-rows: 350px 1fr;
-        grid-template-columns: 2fr 1fr 1fr; 
-        grid-template-areas: "logo hero hero" "buttons buttons buttons";
+        display              : grid;
+        grid-template-rows   : 350px 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-areas  : "logo hero hero""buttons buttons buttons";
     }
 
     .logo-container {
-        grid-area: logo;
+        grid-area : logo;
         align-self: center;
         text-align: left;
-        margin: 0;
+        margin    : 0;
     }
 
     .logo-container h2 {
         text-align: initial;
-        font-size: 3.6rem;
+        font-size : 3rem;
     }
 
     .logo-container img {
@@ -107,14 +108,15 @@
     }
 
     .hero-image {
-        grid-area: hero;
+        grid-area   : hero;
         justify-self: end;
+        display: block;
     }
 
     .button-container {
-        grid-area: buttons;
+        grid-area      : buttons;
         justify-content: center;
-        margin-top: 10rem;
+        margin-top     : 10rem;
     }
 
     .button-container a {

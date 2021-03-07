@@ -1,0 +1,22 @@
+.footer-container body {
+    display: flex;
+    text-align: center;
+}
+
+span.footer-content  {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.footer-content svg {
+    margin-left: 0.5rem;
+}
+
+.footer-content a {
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
